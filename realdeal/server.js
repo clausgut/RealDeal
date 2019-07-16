@@ -2,6 +2,11 @@ const path = require("path");
 const PORT = process.env.PORT || 3001;
 const app = express();
 const mongodb = require('mongodb');
+const MONGODB_URI =process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+
+
+// Connect to the Mongo DB
+mongoose.connect(MONGODB_URI);
 
 //We need to work with "MongoClient" interface in order to connect to a mongodb server.
 const MongoClient = mongodb.MongoClient;
