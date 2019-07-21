@@ -7,11 +7,15 @@ import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
 
+
+const nav_bar = {};
+
+
 export default class index extends Component {
   render() {
     return (
-      <div>
-        <Navbar bg="dark" variant="dark">
+      <div className="nav-bar">
+        <Navbar variant="dark" style={nav_bar}>
           <Navbar.Brand href="#home">RealDeal</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="#home">Home</Nav.Link>
@@ -25,7 +29,7 @@ export default class index extends Component {
 
       </div>
     )
-  }
+  };
 }
 
 
