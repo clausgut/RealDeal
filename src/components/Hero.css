@@ -1,0 +1,7 @@
+.hero {
+    width: 100vw;
+    height: 400px;
+    background-size: auto;
+    background-attachment: fixed;
+    background-image: url('./strawberries.jpg');
+}
