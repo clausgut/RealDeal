@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Nav, Form, FormControl, Button, NavDropdown} from 'react-bootstrap';
 
 
 const nav_bar = {};
@@ -20,6 +20,16 @@ export default class index extends Component {
           <Nav className="mr-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#pricing">HotSales</Nav.Link>
+            <NavDropdown title="Categories" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Fresh Produce</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Meat</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Bread, Cereal, Rice and Pasta</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">Frozen Foods</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.5">Miscellaneous Foods</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.6">Health & Beauty</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.7">Household</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.8">Office</NavDropdown.Item>
+            </NavDropdown>
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
