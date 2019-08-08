@@ -14,7 +14,7 @@ import Horror from './components/Genres/horror'
 import Mystery from './components/Genres/mystery'
 import Fantasy from './components/Genres/fantasy'
 import Romance from './components/Genres/romance'
-//import Drama from './components/Genres/drama'
+import Drama from './components/Genres/drama'
 import Comments from './components/comments'
 import Footer from './components/footer'
 
