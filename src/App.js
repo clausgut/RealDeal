@@ -1,18 +1,23 @@
 import React from 'react';
-// import { BrowserRouter as Router, Route } from "react-router-dom";
-//import About from "./pages/About";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from './components/Hero';
-import itemCard from './components/itemcard';
 import { Card } from 'react-bootstrap';
+import Signup from './components/sign-up'
+import LoginForm from './components/login-form'
+import Home from './components/home'
+import Forum from './components/forum'
+import NewStory from './components/Newstory'
+import Funny from './components/Genres/funny'
+import Horror from './components/Genres/horror'
+import Mystery from './components/Genres/mystery'
+import Fantasy from './components/Genres/fantasy'
+import Romance from './components/Genres/romance'
+import Drama from './components/Genres/drama'
+import Comments from './components/comments'
+import Footer from './components/footer'
 
-// import Footer from "./components/Footer";
-// import Wrapper from "./components/Wrapper";
-// class App extends Component {
-//   state = {
-//     items
-//   };
-// }
+
 function App() {
   return (
   
