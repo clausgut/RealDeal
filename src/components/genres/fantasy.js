@@ -1,6 +1,6 @@
 import React, { Fragment, Component } from 'react';
 import axios from 'axios';
-import Results from '../Result'
+import ResultList from '../ResultList'
 import {Link} from 'react-router-dom'
 import "../../components/style.css"
 
@@ -56,7 +56,7 @@ class Fantasy extends Component {
                             <ul>
                                 {this.state.articles.map(article => (
 
-                                    <Results
+                                    <ResultList
                                         key={article._id}
                                         id={article._id}
                                         title={article.title}
