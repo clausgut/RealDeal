@@ -99,4 +99,3 @@ class LoginForm extends Component {
 }
 
 export default LoginForm
-© 2019 GitHub, Inc.

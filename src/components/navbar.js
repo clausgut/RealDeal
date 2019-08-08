@@ -6,7 +6,6 @@ import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Navbar, Nav, Form, FormControl, Button, NavDropdown} from 'react-bootstrap';
-import SearchForm from './SearchForm';
 
 
 const nav_bar = {};
@@ -32,7 +31,6 @@ export default class index extends Component {
               <NavDropdown.Item href="#action/3.8">Office</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-         <SearchForm />
         </Navbar>
 
       </div>

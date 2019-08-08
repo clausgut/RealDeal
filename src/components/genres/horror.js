@@ -1,26 +1,25 @@
 import React, { Fragment, Component } from 'react';
-import axios from 'axios'
-import ResultList from './ResultList'
-import { Link } from 'react-router-dom'
-import './forum.css'
+import axios from 'axios';
+import Results from '../Result'
+import {Link} from 'react-router-dom'
+import "../../components/style.css"
 
 
-class Forum extends Component {
+class Horror extends Component {
 
     state = {
         articles: []
     }
 
     componentDidMount() {
-        this.getTopics()
+        this.getHorror()
     }
 
-    getTopics = () => {
-        axios.get("/all").then(res => {
-            // console.log(res.data)
+    getHorror = () => {
+        axios.get("/horror").then(res => {
             this.setState({ articles: res.data })
-            console.log(this.state.articles)
         })
+        console.log(this.state.articles)
     }
 
     render() {
@@ -38,10 +37,10 @@ class Forum extends Component {
                         <li><Link to="/forum/fantasy">Fantasy</Link></li>
                     </ul>
                 </div>
-                <div className="jumbotron jumbotron-fluid" id="alltron">
+                <div className="jumbotron jumbotron-fluid" id="horrortron">
                     <div className="container">
-                        <h1 className="display-4 text-center">All Stories</h1>
-                        <p className="lead text-center">These are all the stories...</p>
+                        <h1 className="display-4 text-center">Horror Stories</h1>
+                        <p className="lead text-center">I'm horrified just thinking about it...</p>
                     </div>
                 </div>
                 <div className="container">
@@ -52,20 +51,17 @@ class Forum extends Component {
                         ) : (
                             <Link to="/login" className="btn btn-warning float-right" role="button">Create New Story</Link>
                         )}
-                            </div>
-                        
+                        </div>
                         <div className="posts col-md-12">
                             <ul>
                                 {this.state.articles.map(article => (
-
-                                    <ResultList
+                                    <Results
                                         key={article._id}
                                         id={article._id}
                                         title={article.title}
                                         author={article.author}
                                         description={article.description}
                                     />
-
                                 ))}
                             </ul>
                         </div>
@@ -75,5 +71,4 @@ class Forum extends Component {
         )
     }
 }
-
-export default Forum;
+export default Horror;

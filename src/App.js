@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from './components/Hero';
@@ -13,12 +14,12 @@ import Horror from './components/Genres/horror'
 import Mystery from './components/Genres/mystery'
 import Fantasy from './components/Genres/fantasy'
 import Romance from './components/Genres/romance'
-import Drama from './components/Genres/drama'
+//import Drama from './components/Genres/drama'
 import Comments from './components/comments'
 import Footer from './components/footer'
 
 
-class App extends Component {
+class App extends React.Component {
   constructor() {
     super()
     this.state = {

@@ -28,7 +28,7 @@ li {
 }
 
 #alltron {
-    background-image: url("../images/all.jpeg");
+    /*background-image: url("../images/all.jpeg")*/
     background-size: cover;
     background-position: 0% 50%;
     text-shadow: black 0.1em 0.1em 0.1em;
