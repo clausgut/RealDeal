@@ -3,10 +3,16 @@ import React from 'react';
 //import About from "./pages/About";
 import Navbar from "./components/Navbar";
 import Hero from './components/Hero';
+import itemCard from './components/itemcard';
+import { Card } from 'react-bootstrap';
 
 // import Footer from "./components/Footer";
 // import Wrapper from "./components/Wrapper";
-
+// class App extends Component {
+//   state = {
+//     items
+//   };
+// }
 function App() {
   return (
   
@@ -15,6 +21,11 @@ function App() {
         <Navbar />
         {/* <SearchResultContainer />
         <SearchForm /> */}
+        <itemCard
+        // addWishList={this.addWishList}
+        // id={item.id}
+        // name={item.name}
+        />
         <div style={{ height: "1000px"}}>simulating a lot of content</div>
       
         </div>
