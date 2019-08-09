@@ -24,7 +24,7 @@
     width: 50%;
     border-radius: 8px;
     text-align: left;
-    border-color: grey;
+    border-color: rgb(214, 93, 93);
     padding: 5px;
 }
 
@@ -44,7 +44,7 @@
 button {
     background-color:ghostwhite;
     color: teal;
-    border: black;
+    border: rgb(35, 28, 138);
     margin-left: 4%;
     border-radius: 8px;
     padding: 6px;

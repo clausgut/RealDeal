@@ -37,9 +37,9 @@ export default class Navbar extends Component{
           <nav className="navbar navbar-expand-sm bg-light navbar-light">
                       <div id="top-filler"></div>
                       <a className="navbar-brand" href="/">
-                          <img src="https://2.bp.blogspot.com/-BNcL1BCgdso/VxUi-FIgjuI/AAAAAAAADNQ/Qt8hlaHvkRUVc1f7hZkO0uEH9ls2R3boACPcBGAYYCw/s1600/S.jpg" width="50" height="50"  alt=""/>
+                         
                       </a>
-                          <h1 className="App-title">StoryBook</h1>
+                          <h1 className="App-title">Gizmo</h1>
                       {loggedIn ? (
                           <section className="navbar-section">
                               <Link to="/forum" className="btn btn-link ml-5">

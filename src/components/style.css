@@ -1,6 +1,6 @@
 .genres {
     text-align: center;
-        /* background: #369; */
+        background: #369;
 }
 
 .genres ul {
@@ -36,42 +36,42 @@
 }
 
 #funnytron {
-        /*background-image: url("../images/funny.jpg");*/
+        background-image: url("../images/picthree.jpg");
         background-size: cover;
         background-position: 0% 25%;
         text-shadow: black 0.1em 0.1em 0.1em;
 }
 
 #horrortron {
-    /*background-image: url("../images/horror.jpg");*/
+    background-image: url("../images/picfour.jpg");
     background-size: cover;
     background-position: 0% 25%;
     text-shadow: black 0.1em 0.1em 0.1em;
 }
 
 #romancetron {
-    /*background-image: url("../images/romance.jpg");*/
+    background-image: url("../images/picone.jpg");
     background-size: cover;
     background-position: 0% 50%;
     text-shadow: black 0.1em 0.1em 0.1em;
 }
 
 #mysterytron {
-   /*background-image: url("../images/mystery.jpg");*/
+   background-image: "../images/picfive.jpg";
     background-size: cover;
     background-position: 0% 25%;
     text-shadow: black 0.1em 0.1em 0.1em;
 }
 
 #dramatron {
-    /*background-image: url("../images/drama.jpg");*/
+    background-image: url("../images/picsix.jpg");
     background-size: cover;
     background-position: 0% 25%;
     text-shadow: black 0.1em 0.1em 0.1em;
 }
 
 #fantasytron {
-    /*background-image: url("../images/fantasy.jpg");*/
+    background-image: url("../images/picfive.jpg");
     background-size: cover;
     background-position: 0% 50%;
     text-shadow: black 0.1em 0.1em 0.1em;
@@ -146,10 +146,10 @@ input {
     width: 80%;
 }
 
-/* .newstoryform {
+ .newstoryform {
     margin-left: auto;
     margin-top:  60px;
     margin-right: auto;
     display: block;
     width: 80%;
-} */
+} 

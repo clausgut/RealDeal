@@ -3,7 +3,7 @@
     height: 400px;
     background-size: auto;
     background-attachment: fixed;
-    background-image: url('./strawberries.jpg');
+    /*background-image: url('./strawberries.jpg')*/
     opacity: 0.7;
     transition-duration: 600ms;
     transition-timing-function: ease-in-out;

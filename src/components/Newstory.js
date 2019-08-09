@@ -96,7 +96,7 @@ class NewStory extends Component {
                     <div>
                     <div className="form-group">
                         <label className="form-label" htmlFor="title">Pick the Genre:</label>
-                            <select name="genre" className="custom-select custom-select-md" value={this.state.genre} onChange={this.handleInputChange} disabled>
+                            <select name="genre" className="custom-select custom-select-md" value={this.state.genre} onChange={this.handleInputChange}>
                                 <option value="funny">Funny</option>
                                 <option value="horror">Horror</option>
                                 <option value="romance">Romance</option>
@@ -111,7 +111,7 @@ class NewStory extends Component {
                                     id="title"
                                     name="title"
                                     value={this.state.title}
-                                    disabled
+                                
                                 />
                             </div>
                         <label className="form-label" htmlFor="description">Story:</label>
@@ -123,7 +123,7 @@ class NewStory extends Component {
                                     rows="15"
                                     cols="100"
                                     value="Please sign in to make a story"
-                                    disabled
+                                    
                                 />
                             </div>
                     </div>

@@ -70,9 +70,8 @@ render() {
       <Route
         path="/login"
         render={() =>
-          <LoginForm
-            updateUser={this.updateUser}
-          />}
+          <NewStory/>
+        }
       />
       <Route
         path="/signup"
